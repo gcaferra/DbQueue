@@ -1,6 +1,6 @@
-﻿namespace Queue;
+﻿namespace DbQueue.Queue;
 
-public class DbQueue
+public class FifoQueue
 {
     public List<string> Queue = new();
     public void Enqueue(string test)

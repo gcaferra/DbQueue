@@ -1,4 +1,4 @@
-﻿using Queue;
+﻿using DbQueue.Queue;
 using FluentAssertions;
 using Xunit;
 
@@ -9,7 +9,7 @@ public class QueueScenario
     [Fact]
     void A_Generic_Item_can_be_Queued()
     {
-        var queue = new DbQueue();
+        var queue = new FifoQueue();
 
         queue.Enqueue("Test");
 
