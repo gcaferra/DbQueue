@@ -1,4 +1,4 @@
-﻿using DbQueue;
+﻿using Queue;
 using FluentAssertions;
 using Xunit;
 
@@ -9,7 +9,7 @@ public class QueueScenario
     [Fact]
     void A_Generic_Item_can_be_Queued()
     {
-        var queue = new DbQueue.DbQueue();
+        var queue = new DbQueue();
 
         queue.Enqueue("Test");
 

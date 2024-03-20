@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbQueue", "src\DbQueue\DbQueue.csproj", "{DDCCE2A7-2A3B-4745-AA31-1AE73015DCC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "src\Queue\Queue.csproj", "{DDCCE2A7-2A3B-4745-AA31-1AE73015DCC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue.Tests", "tests\Queue.Tests\Queue.Tests.csproj", "{86E19B6F-7179-4C63-B819-E5C54C0A9DC2}"
 EndProject

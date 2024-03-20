@@ -1,4 +1,4 @@
-﻿namespace DbQueue;
+﻿namespace Queue;
 
 public class DbQueue
 {

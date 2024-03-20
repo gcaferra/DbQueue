@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\DbQueue\DbQueue.csproj" />
+      <ProjectReference Include="..\..\src\Queue\Queue.csproj" />
     </ItemGroup>
 
 </Project>
