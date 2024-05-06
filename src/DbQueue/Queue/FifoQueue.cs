@@ -2,9 +2,8 @@
 
 public class FifoQueue
 {
-    public List<string> Queue = new();
-    public void Enqueue(string test)
-    {
-        Queue.Add(test);
-    }
+    public readonly Queue<string> Queue = new();
+    public void Enqueue(string test) => Queue.Enqueue(test);
+
+    public string Dequeue() => Queue.Dequeue();
 }
